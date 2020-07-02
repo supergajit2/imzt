@@ -1,0 +1,28 @@
+{
+  "name": "imzt",
+  "version": "1.0.0",
+  "description": "automation for imzt",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supergajit2/imzt.git"
+  },
+  "author": "Summer Armitage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supergajit2/imzt/issues"
+  },
+  "homepage": "https://github.com/supergajit2/imzt#readme",
+  "dependencies": {
+    "jest": "^26.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.0.0"
+  }
+}

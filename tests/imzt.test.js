@@ -50,43 +50,43 @@ describe ('view the MTC reports', () => {
     it('Brazil MTC', async () => {
         await page.waitFor(3000)
         await functions.viewMTCReport(page, sideNav.BRAZIL_MTC, 'Brazil')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Colombia MTC', async () => {
         await functions.viewMTCReport(page, sideNav.COLOMBIA_MTC, 'Colombia')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('England MTC', async () => {
         await functions.viewMTCReport(page, sideNav.ENGLAND_MTC, 'England')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Ghana MTC', async () => {
         await functions.viewMTCReport(page, sideNav.GHANA_MTC,'Ghana')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Mexico MTC', async () => {
         await functions.viewMTCReport(page, sideNav.MEXICO_MTC,'México')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('New Zealand MTC', async () => {
         await functions.viewMTCReport(page, sideNav.NZ_MTC,'Zealand')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Peru MTC', async () => {
         await functions.viewMTCReport(page, sideNav.PERU_MTC,'Perú ')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Philippines MTC', async () => {
         await functions.viewMTCReport(page, sideNav.PHIL_MTC,'Philippines')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('Provo MTC', async () => {
         await functions.viewMTCReport(page, sideNav.PROVO_MTC,'Provo')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
     it('South Africa MTC', async () => {
         await functions.viewMTCReport(page, sideNav.S_AFRICA_MTC,'Africa')
-        await functions.checkIncomplete(page, mtcReport.RECORD)
+        
     })
 })
 

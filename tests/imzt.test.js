@@ -21,8 +21,7 @@ beforeAll(async () => {
         args: ['--start-maximized'] 
     })
     page = await browser.newPage()
-    //await page.setDefaultTimeout(150000)
-    
+   
     
 })
 
@@ -46,6 +45,9 @@ describe ('generic login', () => {
 })
 
 describe ('view the MTC reports', () => {
+    beforeEach(() => {
+        jest.setTimeout(300000);
+      });
 // view each mtc report and confirm the correct number of records display   
     it('Brazil MTC', async () => {
         await page.waitFor(3000)
